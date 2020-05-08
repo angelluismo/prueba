@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+ 
     /**
      * @return View
      */
@@ -26,5 +27,12 @@ class HomeController extends Controller
     public function abaut()
     {
         return view('abaut');
+    }
+     /**
+     * @return View
+     */
+    public function admin()
+    {
+        return view('admin');
     }
 }
